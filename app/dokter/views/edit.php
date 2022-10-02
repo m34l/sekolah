@@ -64,6 +64,16 @@ $dokter = get_where("SELECT * FROM dokter WHERE id = '$id' ");
                       </div>
                     </div>
                   </div>
+                  <div class="col-12">
+                    <div class="form-group row">
+                      <div class="col-md-4">
+                        <label>Jadwal</label>
+                      </div>
+                      <div class="col-md-8">
+                      <textarea class="form-control" id="basicTextarea" rows="3" placeholder="Jadwal" name="jadwal"><?= $dokter['jadwal']; ?></textarea>
+                      </div>
+                    </div>
+                  </div>
 
                   <div class="col-md-8 offset-md-4">
                     <button type="submit" name="save" class="btn btn-primary">Save</button>

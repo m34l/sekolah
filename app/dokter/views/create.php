@@ -59,6 +59,16 @@
                       </div>
                     </div>
                   </div>
+                  <div class="col-12">
+                    <div class="form-group row">
+                      <div class="col-md-4">
+                        <label>Jadwal Dokter</label>
+                      </div>
+                      <div class="col-md-8">
+                        <textarea class="form-control" id="basicTextarea" rows="3" placeholder="Senin 09:00 - 12:00" name="jadwal"></textarea>
+                      </div>
+                    </div>
+                  </div>
 
                   <div class="col-md-8 offset-md-4">
                     <button type="submit" class="btn btn-primary">Save</button>

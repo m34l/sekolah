@@ -26,6 +26,7 @@ $title = 'pasien';
                   <tr>
                     <th></th>
                     <th>Nama</th>
+                    <th>Berat/Tinggi Badan</th>
                     <th>Alamat</th>
                     <th>Nomor Telepon</th>
                     <th>Jenis Kelamin</th>
@@ -37,6 +38,7 @@ $title = 'pasien';
                     <tr>
                       <td><?= $no++ ?></td>
                       <td><?= $pasien['nama_pasien']; ?></td>
+                      <td><?= $pasien['berat_pasien']; ?>KG / <?= $pasien['tinggi_pasien']; ?> CM</td>
                       <td><?= $pasien['alamat']; ?></td>
                       <td><?= $pasien['telephone']; ?></td>
                       <td><?= ($pasien['jenis_kelamin'] == 'l' ? 'Laki-laki' : 'Perempuan'); ?></td>

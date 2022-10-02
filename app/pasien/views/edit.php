@@ -47,7 +47,20 @@ $pasien = get_where("SELECT * FROM pasien WHERE id = '$id' ");
                       </div>
                     </div>
                   </div>
-
+                  <div class="col-12">
+                    <div class="form-group row">
+                      <div class="col-md-4">
+                        <label>Berat & Tinggi Badan</label>
+                      </div>
+                      <div class="col-md-8">
+                  <div class="input-group">
+                  <span class="input-group-text">BB/TB</span>
+                  <input type="text" name="berat_pasien" aria-label="Berat Badan" value="<?= $pasien['berat_pasien']; ?>" class="form-control">
+                  <input type="text" name="tinggi_pasien" aria-label="Tinggi" value="<?= $pasien['tinggi_pasien']; ?>" class="form-control">
+                </div>
+                </div>
+                    </div>
+                  </div>
                   <div class="col-12">
                     <div class="form-group row">
                       <div class="col-md-4">

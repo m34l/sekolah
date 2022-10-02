@@ -41,6 +41,20 @@
                   <div class="col-12">
                     <div class="form-group row">
                       <div class="col-md-4">
+                        <label>Berat & Tinggi Badan</label>
+                      </div>
+                      <div class="col-md-8">
+                  <div class="input-group">
+                  <span class="input-group-text">BB/TB</span>
+                  <input type="text" name="berat_pasien" aria-label="Berat Badan" placeholder="70" class="form-control">
+                  <input type="text" name="tinggi_pasien" aria-label="Tinggi" placeholder="175" class="form-control">
+                </div>
+                </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group row">
+                      <div class="col-md-4">
                         <label>Nomor Hp</label>
                       </div>
                       <div class="col-md-8">

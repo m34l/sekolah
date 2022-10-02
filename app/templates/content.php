@@ -62,6 +62,18 @@ if (isset($_GET['page'])) {
 		case 'hapus-rekam-medis':
 			require 'app/rekam-medis/proses/delete.php';
 			break;
+		case 'antrian':
+			require 'app/antrian/views/index.php';
+			break;
+		case 'tambah-antrian':
+			require 'app/antrian/views/create.php';
+			break;
+		case 'edit-antrian':
+			require 'app/antrian/views/edit.php';
+			break;
+		case 'hapus-antrian':
+			require 'app/antrian/proses/delete.php';
+			break;	
 		case 'lap-rekam-medis':
 			require 'app/laporan/views/rekam-medis.php';
 			break;

@@ -49,7 +49,7 @@
                     <a class="nav-link px-3" href="#features">Pelayanan</a>
                   </li>
                   <li class="nav-item buynow-btn">
-                    <a class="nav-link px-4" href="https://1.envato.market/frest_admin" target="_blank">Booking</a>
+                    <a class="nav-link px-4" href="/klinik/booking.php" target="_blank">Booking</a>
                   </li>
                 </ul>
               </div>
@@ -72,13 +72,18 @@
             </p>
             <h6>- <b>Unit Gawat Darurat</b></h6>
             <h6>- <b>Rawat Inap</b></h6>
-            <h6>- <b>Laboratorium</b></h6>
-            <h6>- <b>Persalinan</b></h6>
+            <h6>- <b>Nebulizer</b></h6>
+            <h6>- <b>Kebidanan (KB dan Bersalin)</b></h6>
             <h6>- <b>Khitan Modern</b></h6>
             <h6>- <b>USG</b></h6>
+            <h6>- <b>THT(spoling telinga)</b></h6>
             <h6>- <b>EKG (Rekam Jantung)</b></h6>
+            <h6>- <b>Bedah Minor</b></h6>
+            <h6>- <b>Perawatan Luka</b></h6>
+            <h6>- <b>Infus Vitamin</b></h6>
+            <h6>- <b>Therapi Konversional</b></h6>
             <a class="btn submit-btn mt-3 mr-2" href="/klinik/app/auth/login.php" target="_blank"><span>Member</span></a>
-            <a class="btn buy-btn mt-3" href="#" target="_blank"><span>Booking Online</span></a>
+            <a class="btn buy-btn mt-3" href="/klinik/booking.php" target="_blank"><span>Booking Online</span></a>
           </div>
         </div>
         <div class="col-lg-7 col-md-12 py-5 px-0 full-xl mx-auto text-center mt-5">
@@ -154,7 +159,53 @@
               <div class="col-9">
                 <h5>USG</h5>
                 <p class="text-sm">
-                  Kami menyediakan layanan USG..
+                  Kami menyediakan layanan USG.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-4 p-0">
+          <div class="single-feature px-4 pt-4">
+            <div class="row">
+              <div class="col-3 text-right text-gradient">
+                <span class="ti-bookmark-alt text-medium"></span>
+              </div>
+              <div class="col-9">
+                <h5>Therapi Konversional</h5>
+                <p class="text-sm">
+                  Kami menyediakan Bekam medis, akupuntur, biomekanik, quantum QHT, Hirudotherapi, Akupresure.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-4 p-0">
+          <div class="single-feature px-4 pt-4">
+            <div class="row">
+              <div class="col-3 text-right text-gradient">
+                <span class="ti-bookmark-alt text-medium"></span>
+              </div>
+              <div class="col-9">
+                <h5>THT</h5>
+
+                <p class="text-sm">
+                  Kami menyediakan layanan THT spoling telinga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-4 p-0">
+          <div class="single-feature px-4 pt-4">
+            <div class="row">
+              <div class="col-3 text-right text-gradient">
+                <span class="ti-bookmark-alt text-medium"></span>
+              </div>
+              <div class="col-9">
+                <h5>Khitan Modern</h5>
+                <p class="text-sm">
+                  Kami melayani Khitan Modern.
                 </p>
               </div>
             </div>
@@ -324,7 +375,7 @@
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
               <div class="card-body">
                 <p class="text-sm">
-                Tentu saja sangat bisa sekali. Anda dapat menghubungi kami di  62xxxxx
+                Tentu saja sangat bisa sekali. Anda dapat menghubungi kami di  +62 81279457134 / +62 85377369940
                 </p>
               </div>
             </div>

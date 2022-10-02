@@ -3,7 +3,7 @@ session_start();
 require 'app/functions/function.php';
 require 'app/functions/config.php';
 
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['user'])&&$_GET['page']!=="tambah-antrian") {
   header('Location: landing/');
   exit;
 }

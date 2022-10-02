@@ -26,6 +26,7 @@ $no = 1;
                     <th></th>
                     <th>Nama</th>
                     <th>Spesialis</th>
+                    <th>Jadwal</th>
                     <th>Alamat</th>
                     <th>Nomor Telepon</th>
                     <th>Aksi</th>
@@ -37,6 +38,7 @@ $no = 1;
                       <td><?= $no++ ?></td>
                       <td><?= $dokter['nama_dokter']; ?></td>
                       <td><?= $dokter['spesialis']; ?></td>
+                      <td><?= $dokter['jadwal']; ?></td>
                       <td><?= $dokter['alamat']; ?></td>
                       <td><?= $dokter['telephone']; ?></td>
                       <td>

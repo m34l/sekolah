@@ -39,7 +39,6 @@ $obats = get("SELECT * FROM obat");
                       </div>
                     </div>
                   </div>
-
                   <div class="col-12">
                     <div class="form-group row">
                       <div class="col-md-4">
@@ -80,7 +79,7 @@ $obats = get("SELECT * FROM obat");
                   <div class="col-12">
                     <div class="form-group row">
                       <div class="col-md-4">
-                        <label>obat</label>
+                        <label>Obat</label>
                       </div>
                       <div class="col-md-8">
                         <select multiple class="form-control" name="obat_id[]" size="7" required>

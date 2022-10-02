@@ -32,7 +32,9 @@
       </li>
 
       <li class="<?php echo is_active('rekam-medis'); ?> nav-item"><a href="?page=rekam-medis"><i class="feather icon-bar-chart"></i><span class="menu-title" data-i18n="Rekam Medis">Rekam Medis</span></a>
-
+      </li>
+      <li class="<?php echo is_active('antrian'); ?> nav-item"><a href="?page=antrian"><i class="feather icon-heart"></i><span class="menu-title" data-i18n="Antrian">Antrian</span></a>
+      </li>
       <li class="nav-item"><a href="javascript:;"><i class="feather icon-pie-chart"></i><span class="menu-title" data-i18n="Laporan">Laporan</span></a>
         <ul class="menu-content">
           <li class="<?php echo is_active('lap-rekam-medis'); ?>"><a href="?page=lap-rekam-medis"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Rekam Medis">Rekam Medis</span></a>
